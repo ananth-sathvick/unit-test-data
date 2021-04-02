@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(set logLevel := Level.Warn, Some(29a861f1-fa7d-4aa7-bd42-a150566e3cf5), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining logLevel[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 5 others.[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDefining [0m
+[0m[[0m[0mdebug[0m] [0m[0m	logLevel[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe new value will be used by [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / test / testListeners[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / testOnly / testListeners[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / testQuick / testListeners[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dependencyTreeIgnoreMissingUpdate[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evicted[0m
+[0m[[0m[0mdebug[0m] [0m[0m	update[0m
+[0m[[0m[0mdebug[0m] [0m[0m	updateClassifiers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	updateFull[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to hello-world (in build file:/Users/ananthsathvick/accolite/apache-spark/hello-world/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

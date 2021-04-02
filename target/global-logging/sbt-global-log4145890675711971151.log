@@ -1,0 +1,37 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.9 (AdoptOpenJDK Java 11.0.8)
+[debug] Load.defaultLoad until apply took 348.816958ms
+[debug]                 Load.loadUnit: plugins took 72.959264ms
+[debug]                 Load.loadUnit: defsScala took 0.356983ms
+[debug] [Loading] Scanning directory /Users/ananthsathvick/accolite/apache-spark/hello-world/project/project
+[debug]                   Load.loadUnit: mkEval took 6.450726ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/ananthsathvick/accolite/apache-spark/hello-world/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.712243 ms
+[info] loading settings for project hello-world-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(hello-world-build-build) took 50.031813ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id hello-world-build-build, base: /Users/ananthsathvick/accolite/apache-spark/hello-world/project/project, plugins: List(<none>))) took 105.458057ms
+[debug] [Loading] Done in /Users/ananthsathvick/accolite/apache-spark/hello-world/project/project, returning: (hello-world-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 348.494661ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 6.391405ms
+[debug]               Load.loadUnit(file:/Users/ananthsathvick/accolite/apache-spark/hello-world/project/project/, ...) took 432.797339ms
+[debug]             Load.apply: load took 5638.337469ms
+[debug]             Load.apply: resolveProjects took 9.925207ms
+[debug]             Load.apply: finalTransforms took 90.909494ms
+[debug]             Load.apply: config.delegates took 11.721687ms
+[debug]             Load.apply: Def.make(settings)... took 512.630898ms
+[debug]             Load.apply: structureIndex took 93.899994ms
+[debug]             Load.apply: mkStreams took 1.747689ms
+[info] loading project definition from /Users/ananthsathvick/accolite/apache-spark/hello-world/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

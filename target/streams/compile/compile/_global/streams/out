@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/ananthsathvick/accolite/apache-spark/hello-world/src/main/scala/deequ_example.scala:19:13: not found: value spark[0m
+[0m[[0m[31merror[0m] [0m[0m  val df3 = spark.read.option("sep", ",")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ananthsathvick/accolite/apache-spark/hello-world/src/main/scala/deequ_example.scala:50:53: not found: value spark[0m
+[0m[[0m[31merror[0m] [0m[0m      val resultDataFrame = checkResultsAsDataFrame(spark, verificationResult);[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

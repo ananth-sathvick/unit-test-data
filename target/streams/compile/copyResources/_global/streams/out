@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ananthsathvick/accolite/apache-spark/hello-world/src/main/resources/net_dup.csv,/Users/ananthsathvick/accolite/apache-spark/hello-world/target/scala-2.12/classes/net_dup.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ananthsathvick/accolite/apache-spark/hello-world/src/main/resources/telecom_users.csv,/Users/ananthsathvick/accolite/apache-spark/hello-world/target/scala-2.12/classes/telecom_users.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ananthsathvick/accolite/apache-spark/hello-world/src/main/resources/data.txt,/Users/ananthsathvick/accolite/apache-spark/hello-world/target/scala-2.12/classes/data.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/ananthsathvick/accolite/apache-spark/hello-world/src/main/resources/netflix_titles.csv,/Users/ananthsathvick/accolite/apache-spark/hello-world/target/scala-2.12/classes/netflix_titles.csv)[0m
